@@ -152,7 +152,7 @@
             colorDark: "#179702"
         });
                 var ajaxObj = new XMLHttpRequest();
-                ajaxObj.open('post', 'https://noleave.sxu.edu.cn/jcforms/plus/api/getRandom');
+                ajaxObj.open('post', 'http://noleave.sxu.edu.cn/jcforms/plus/api/getRandom');
                 ajaxObj.send()
                 ajaxObj.onreadystatechange = function () {
                     if (ajaxObj.readyState == 4 && ajaxObj.status == 200) {
